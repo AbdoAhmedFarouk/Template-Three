@@ -125,7 +125,8 @@ a {
   right: 0;
   height: 30px;
   width: 100%;
-  background-image: linear-gradient(135deg, white 25%, transparent 25%),
+  background-image:
+    linear-gradient(135deg, white 25%, transparent 25%),
     linear-gradient(225deg, white 25%, transparent 25%);
   background-size: 30px 30px;
   z-index: 1;
@@ -134,7 +135,7 @@ a {
   position: absolute;
   height: 204px;
   width: 186px;
-  background-image: url(../Images/dots.png);
+  background-image: url(../images/dots.png);
   background-repeat: no-repeat;
 }
 .dots-up {
@@ -234,7 +235,9 @@ a {
   padding: 30px;
   gap: 40px;
   opacity: 0;
-  transition: top var(--main-transition), opacity var(--main-transition);
+  transition:
+    top var(--main-transition),
+    opacity var(--main-transition);
 }
 @media (max-width: 767px) {
   .header .mega-menu {
@@ -415,7 +418,8 @@ a {
   box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
   border-radius: 6px;
   overflow: hidden;
-  transition: transform var(--main-transition),
+  transition:
+    transform var(--main-transition),
     box-shadow var(--main-transition);
 }
 .articles .box:hover {
@@ -476,7 +480,8 @@ a {
 .gallery .box {
   padding: 15px;
   background-color: white;
-  box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+  box-shadow:
+    0px 12px 20px 0px rgb(0 0 0 / 13%),
     0px 2px 4px 0px rgb(0 0 0 / 12%);
 }
 .gallery .box .image {
@@ -793,7 +798,9 @@ a {
   position: relative;
   counter-increment: numbers;
   transition: var(--main-transition);
-  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+  box-shadow:
+    0 12px 20px 0 rgb(0 0 0 / 13%),
+    0 2px 4px 0 rgb(0 0 0 / 12%);
 }
 .services .box::before {
   content: "";
@@ -1137,7 +1144,9 @@ a {
 }
 .pricing .box {
   position: relative;
-  box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 12px 20px 0 rgb(0 0 0 / 13%),
+    0 2px 4px 0 rgba(0, 0, 0, 0.12);
   transition: var(--main-transition);
   background: white;
   text-align: center;
